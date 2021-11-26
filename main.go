@@ -20,7 +20,7 @@ func main() {
 
 func HelloText(w http.ResponseWriter, r *http.Request) {
 	name := r.FormValue("name")
-	fmt.Fprintf(w, "Hello %s", name)
+	fmt.Fprintf(w, "Hello %s!", name)
 }
 
 func HelloJSON(w http.ResponseWriter, r *http.Request) {

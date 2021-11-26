@@ -1,6 +1,6 @@
 echo expected: 
 
-echo Hello boyone
+echo Hello boyone!
 
 echo got:
 curl http://localhost:3000/api/v1/greeting?name=boyone
