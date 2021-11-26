@@ -1,0 +1,6 @@
+echo expected: 
+
+echo {\"message\":\"Hello boyone\"}
+
+echo got:
+curl http://localhost:3000/api/v2/greeting -X POST --data-raw '{ "name": "boyone" }'
